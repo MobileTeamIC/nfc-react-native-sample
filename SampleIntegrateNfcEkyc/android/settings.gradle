@@ -1,0 +1,5 @@
+rootProject.name = 'SampleIntegrateNfcEkyc'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':nfc'
+includeBuild('../node_modules/react-native-gradle-plugin')
